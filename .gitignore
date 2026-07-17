@@ -1,0 +1,80 @@
+# Verilator Build Files
+
+obj_dir/
+*.d
+*.o
+*.a
+*.so
+*.exe
+
+# Generated executables
+V*
+!V*.sv
+
+
+# Waveforms & Simulation Outputs
+
+*.vcd
+*.fst
+*.lxt
+*.wlf
+*.ghw
+
+# Simulation logs
+*.log
+*.out
+*.jou
+
+
+# Coverage Reports
+
+coverage/
+*.gcda
+*.gcno
+*.info
+
+
+# Temp Files
+
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# VS Code
+
+.vscode/
+
+
+# JetBrains
+
+.idea/
+
+
+# Vim
+
+*.un~
+Session.vim
+
+
+# CMake
+
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+
+# Misc
+
+*.pid
+*.seed
