@@ -1,0 +1,21 @@
+# Normalize line endings
+* text=auto
+
+# Source files
+*.sv      text
+*.svh     text
+*.v       text
+*.vh      text
+*.md      text
+*.txt     text
+*.yml     text
+*.yaml    text
+*.sh      text eol=lf
+*.py      text
+
+# Binary files
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.pdf     binary
