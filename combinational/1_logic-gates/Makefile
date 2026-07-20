@@ -20,7 +20,7 @@ run: build
 
 
 wave: run
-	gtkwave $(TOP).vcd
+	surfer $(TOP).vcd
 
 
 clean:
