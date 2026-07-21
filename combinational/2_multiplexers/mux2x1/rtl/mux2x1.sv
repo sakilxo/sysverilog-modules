@@ -1,6 +1,4 @@
-// out = (~sel & a) | (sel & b)
-
-`timescale 1ns / 1ps
+`timescale 1ns/1ps
 
 module mux2x1 (
     input logic a,
@@ -10,6 +8,6 @@ module mux2x1 (
     output logic out
 );
 
-assign out = sel ? b : a;
+    assign out = sel ? b : a;
 
 endmodule
