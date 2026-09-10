@@ -19,7 +19,7 @@ module spi_master #(
     output logic       cs
 );
 
-    logic [$clog2(CLK_DIV)-1:0] clk_counter;
+    logic [31:0] clk_counter;
     logic [2:0] bit_index;
     logic [7:0] tx_shift_reg;
     logic [7:0] rx_shift_reg;
